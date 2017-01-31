@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
 
         Firebase.setAndroidContext(this);
 
-        objRef = new Firebase("https://lender-9b3ab.firebaseio.com/pessoa/0/saldo");
+        objRef = new Firebase("https://firebaseio.com/pessoa/0/saldo");
 
         saldoB = (TextView) findViewById(R.id.din);
         saldoD = (TextView) findViewById(R.id.din2);
@@ -66,7 +66,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        objRef2 = new Firebase("https://lender-9b3ab.firebaseio.com/pessoa/1/saldo");
+        objRef2 = new Firebase("https://firebaseio.com/pessoa/1/saldo");
 
         saldoB = (TextView) findViewById(R.id.din);
         saldoD = (TextView) findViewById(R.id.din2);
